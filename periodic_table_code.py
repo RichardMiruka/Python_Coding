@@ -1,7 +1,7 @@
 # Python code for periodic table
 # pip install periodictable
 
-#Add input validation and error handling for periodic table lookup
+# Add input validation and error handling for periodic table lookup
 # Step 1- Check if atomic number input is within the valid range (1-118)
 # Step 2- Add error handling for invalid inputs and out-of-range values
 # Step 3- Improve user feedback with descriptive error messages
