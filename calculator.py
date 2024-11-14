@@ -18,3 +18,5 @@ print(z)
 # y = int(input("What is Y? "))
 # print(x + y) # Output: 3
 
+# The function can actually be written in one line as follows by replacing the x and y variables with the input() function:
+# print(int(input("What is X? ")) + int(input("What is Y? "))) # Output: 3
