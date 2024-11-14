@@ -6,5 +6,4 @@ def greet(text):                          # Add 'text' as a parameter to the fun
 
 greeting = greet("hello, Richard")        # Call the function with the input string
 print(greeting + ", Richard")             # Concatenate the greeting with "Richard"
-greeting = greet("Goodbye, Richard")      # Call the function with a different input string
-print(greeting + ", Richard")             # Concatenate the response with "Richard"
+
