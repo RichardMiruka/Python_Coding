@@ -1,3 +1,5 @@
+# pip install qrcode
+
 import qrcode
 
 # Create an instance of the QRCode object
