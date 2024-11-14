@@ -1,3 +1,6 @@
+# In this program, we define a function named get_guess that prompts the user for a guess and returns the input.
+# We also define a main function that calls the get_guess function and prints the user's guess.
+# Finally, we call the main function to run the program.
 def get_guess():                              # Define a function named get_guess
     guess = int(input("Enter your guess: "))  # Prompt the user for a guess and convert the input to an integer
     return guess                              # Return the user's guess as an integer
@@ -10,4 +13,3 @@ def main():                                  # Define another function named mai
         print("Try again!")                  # Print a message to try again
 
 main()
-# In this program, we define a function named get_guess that prompts the user for a guess and returns the input.
