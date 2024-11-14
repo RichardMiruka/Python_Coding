@@ -5,4 +5,3 @@ def greet(input):                         # Define a function named greet that t
         return "Hello, stranger!"         # Return "Hello, stranger!" as a default message
 
 print(greet("Bob"))                     # Call the greet function with "Alice" as the input and print the result
-
