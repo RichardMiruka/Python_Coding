@@ -19,8 +19,7 @@ def generate_captcha_image(captcha_text, image_width=300):
     return image_file                                      # Return the name of the generated image file
 
 
-captcha_text = generate_captcha_text()                     # Generate a random CAPTCHA text
-image_path = "important_scripts/qr_code.png"               # Specify the desired path for the image file     
+captcha_text = generate_captcha_text()                     # Ge     nerate a random CAPTCHA text
 image_file = generate_captcha_image(captcha_text)          # Create and save the CAPTCHA image
 
 # Print confirmation and display the image
