@@ -43,13 +43,14 @@ match name:
     case _:
         print ("Unknown")
 
-# we can iprove the code above by combining the cases that have the same output into a
+# we can improve the code above by combining the cases that have the same output into a
 # single case statement and using the case keyword to assign the house name to the variable house.
 # This reduces redundancy in the code and makes it more concise.
 
 name = input ("What is your name? ")
 match name:
-    case "Harry", "Hermione", "Ron" => house
-    case "Draco" => house
+    case "Harry"| "Hermione"| "Ron" => house = "Gryffindor"
+    case "Draco" => house = "Slytherin"
     case _ => house = "Unknown"
 print (house)
+
