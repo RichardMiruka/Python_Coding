@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 """
 #!/usr/bin/python
 # This is called a "shebang" line. It specifies the interpreter to use for executing the script.
