@@ -12,11 +12,16 @@
 # This separation of concerns and scoping rules are fundamental concepts in programming that help create maintainable code.
 
 
-def get_guess():                         # Define a function named get_guess
+def get_guess():  # Define a function named get_guess
     guess = input("Enter your guess: ")  # Prompt the user for a guess
-    return guess                         # Return the user's guess or input
+    return guess  # Return the user's guess or input
 
-def main():                              # Define a function named main
-    guess = get_guess()                  # Call the get_guess function and store the result in the guess variable
-    print(f"Your guess is: {guess}")     # Print the user's guess
-main()                                   # Call the main function to run the program
+
+def main():  # Define a function named main
+    guess = (
+        get_guess()
+    )  # Call the get_guess function and store the result in the guess variable
+    print(f"Your guess is: {guess}")  # Print the user's guess
+
+
+main()  # Call the main function to run the program
