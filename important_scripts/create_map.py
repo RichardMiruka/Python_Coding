@@ -3,8 +3,6 @@
 # and then saves the map to an HTML file. The user is notified about the
 # successful creation of the map and instructed to open the HTML file in a
 # browser to view it.
-
-# Create a map using Python
 # pip install folium
 
 import folium
