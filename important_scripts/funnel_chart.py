@@ -27,6 +27,6 @@ fig = go.Figure(go.Funnel(
 
 # Set the title of the chart
 fig.update_layout(title_text="Funnel Chart in Python")
-margin = dict(t=30, left=0, right=0, bottom=0)  # Set the margin for the chart
+margin = dict(top=30, left=0, right=0, bottom=0)  # Set the margin for the chart
 
 fig.show()  # Display the chart
