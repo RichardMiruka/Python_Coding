@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d60636461f5669e0f6ec3cf9e583f380 {
+                #map_267c139bdab82f2f92727ed0dbba73da {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,16 +39,16 @@
 <body>
     
     
-            <div class="folium-map" id="map_d60636461f5669e0f6ec3cf9e583f380" ></div>
+            <div class="folium-map" id="map_267c139bdab82f2f92727ed0dbba73da" ></div>
         
 </body>
 <script>
     
     
-            var map_d60636461f5669e0f6ec3cf9e583f380 = L.map(
-                "map_d60636461f5669e0f6ec3cf9e583f380",
+            var map_267c139bdab82f2f92727ed0dbba73da = L.map(
+                "map_267c139bdab82f2f92727ed0dbba73da",
                 {
-                    center: [37.7749, -122.4194],
+                    center: [-1.21676, 36.766169],
                     crs: L.CRS.EPSG3857,
                     zoom: 12,
                     zoomControl: true,
@@ -60,34 +60,42 @@
 
         
     
-            var tile_layer_a0f6c51662169d9a5f70fdaaa0422536 = L.tileLayer(
+            var tile_layer_062b0501145d351ba9bcef3d246d5697 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_a0f6c51662169d9a5f70fdaaa0422536.addTo(map_d60636461f5669e0f6ec3cf9e583f380);
+            tile_layer_062b0501145d351ba9bcef3d246d5697.addTo(map_267c139bdab82f2f92727ed0dbba73da);
         
     
-            var marker_51647ac9ee4b9afa7dc818757ee5a1e8 = L.marker(
-                [37.7749, -122.4194],
+            var marker_b47bc0ef25210434359b02a24fe900c5 = L.marker(
+                [-1.21676, 36.766169],
                 {}
-            ).addTo(map_d60636461f5669e0f6ec3cf9e583f380);
+            ).addTo(map_267c139bdab82f2f92727ed0dbba73da);
         
     
-        var popup_28627deac5d675b37ba3621eb0127278 = L.popup({"maxWidth": "100%"});
+        var popup_683b3a383df00a75839f06e113c4f9f0 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_bba13705725f1d9c1dd41af09bd13177 = $(`<div id="html_bba13705725f1d9c1dd41af09bd13177" style="width: 100.0%; height: 100.0%;">San Francisco</div>`)[0];
-                popup_28627deac5d675b37ba3621eb0127278.setContent(html_bba13705725f1d9c1dd41af09bd13177);
+                var html_172ba47e451778fd01429b72c716f895 = $(`<div id="html_172ba47e451778fd01429b72c716f895" style="width: 100.0%; height: 100.0%;">Gachie, Kihara ward, Kabete, Kiambu, Central Kenya, 11403, Kenya</div>`)[0];
+                popup_683b3a383df00a75839f06e113c4f9f0.setContent(html_172ba47e451778fd01429b72c716f895);
             
         
 
-        marker_51647ac9ee4b9afa7dc818757ee5a1e8.bindPopup(popup_28627deac5d675b37ba3621eb0127278)
+        marker_b47bc0ef25210434359b02a24fe900c5.bindPopup(popup_683b3a383df00a75839f06e113c4f9f0)
         ;
 
         
     
+    
+            marker_b47bc0ef25210434359b02a24fe900c5.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
 </script>
 </html>
