@@ -1,3 +1,7 @@
+# Write a Python program that reads each text file in the current directory,
+# sorts the numbers in it from low to high, ignores lines that aren't numbers,
+# and outputs the sorted numbers and their sum into a new file in the current 
+# directory with "processed" in its name
 import os
 import glob
 
